@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <section class="mb50 mt50 ml15 mainArea">
+                <canvas id="myCanvas" width="150" height="150">
+                    <img id="imgCanvas" src="img/intro.jpg" alt="my Image Canvas">
+                </canvas>
+            </section>
+            <h4>image property :</h4>
+            <ul>
+                <li>width :</li>
+                <li>height :</li>
+                <li class="infoDrag">drag Event</li>
+            </ul>
+            <!-- list draggable image -->
+            <section>
+                <ul class="listImg">
+                    <li><img src="images/lacto.png" alt="유산균" class="lacto"></li>
+                    <li><img src="images/lacto.png" alt="유산균" class="lacto"></li>
+                    <li><img src="images/lacto.png" alt="유산균" class="lacto"></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/lib/jquery-3.4.1.min.js"></script>
+    <script src="js/lib/jquery-ui.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
